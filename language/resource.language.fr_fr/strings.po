@@ -1,0 +1,1093 @@
+# XBMC Media Center language file
+# Addon Name: fTV
+# Addon id: skin.ftv
+# Addon Provider: Hitcher
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Main\n"
+"Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: XBMC Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/xbmc-main/language/en/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgctxt "#31100"
+msgid "Photos"
+msgstr ""
+
+msgctxt "#31001"
+msgid "US"
+msgstr ""
+
+msgctxt "#31002"
+msgid "UK"
+msgstr ""
+
+msgctxt "#31003"
+msgid "Germany"
+msgstr "Allemagne"
+
+msgctxt "#31004"
+msgid "minute"
+msgstr ""
+
+msgctxt "#31005"
+msgid "hour"
+msgstr "heure"
+
+msgctxt "#31006"
+msgid "Starts at"
+msgstr "Commence à"
+
+msgctxt "#31101"
+msgid "Apps"
+msgstr "Applications"
+
+msgctxt "#31102"
+msgid "Now playing"
+msgstr "En train de jouer"
+
+msgctxt "#31103"
+msgid "Addons"
+msgstr "Addiciels"
+
+msgctxt "#31104"
+msgid "Cinema Experience"
+msgstr "Expérience de cinéma"
+
+msgctxt "#31000"
+msgid "Audio Options"
+msgstr "Options audio"
+
+msgctxt "#31007"
+msgid "System music files"
+msgstr "fichiers musicaux du système"
+
+msgctxt "#31008"
+msgid "Current selection"
+msgstr "Sélection actuelle"
+
+msgctxt "#31009"
+msgid "Open playlist"
+msgstr "Ouvrir la liste de lecture"
+
+msgctxt "#31014"
+msgid "Next Movie"
+msgstr "Film Suivant"
+
+msgctxt "#31015"
+msgid "Next Video"
+msgstr "Vidéo suivante"
+
+msgctxt "#31017"
+msgid "View all of your enabled and disabled Addons."
+msgstr "Voir tous addons activés et désactivés."
+
+msgctxt "#31018"
+msgid "View Addons that have updates available."
+msgstr "Voir les addons qui ont des mises à jour disponibles."
+
+msgctxt "#31019"
+msgid "View Addons that are currently being downloaded."
+msgstr "Voir les addons qui sont en cours de téléchargement."
+
+msgctxt "#31020"
+msgid ""
+"View all the system Addons including Dependencies, Orphaned Dependencies, "
+"and Running Addons."
+msgstr ""
+"Voir tous les addiciels systèmes, y compris dépendances, dépendances Orpheline, "
+"et les addiciels en cour d'exécution."
+
+msgctxt "#31021"
+msgid "Download Addons from your installed repos."
+msgstr "Téléchargez les addons à partir de vos dépôts installés."
+
+msgctxt "#31010"
+msgid "Save playlist"
+msgstr "Enregistrer la liste de lecture"
+
+msgctxt "#31011"
+msgid "Close playlist"
+msgstr "Fermer la liste de lecture"
+
+msgctxt "#31012"
+msgid "Current playlist"
+msgstr "liste de lecture actuelle"
+
+msgctxt "#31013"
+msgid "Muted"
+msgstr "en sourdine"
+
+msgctxt "#31016"
+msgid "Settings level"
+msgstr "Niveau des Paramètres"
+
+msgctxt "#31027"
+msgid "Install Addons using the file browser."
+msgstr "Installer l'addiciels l'aide du navigateur de fichiers."
+
+msgctxt "#31028"
+msgid "Search for an Addon from your installed repos."
+msgstr "Recherchez un addon à partir de vos dépôts installés."
+
+msgctxt "#31022"
+msgid "Update[CR]Now"
+msgstr "Mettre à jour[CR]Maintenant"
+
+msgctxt "#31030"
+msgid "Customise the home menu to your liking with the Skin Shortcuts script."
+msgstr "Personnalisez le menu d'accueil à votre convenance à l'aide du script skin Raccourcis"
+
+msgctxt "#31031"
+msgid "Customise the shutdown menu to include your favourite actions."
+msgstr "Personnaliser le menu d'arrêt pour inclure vos actions favorites."
+
+msgctxt "#31032"
+msgid "Hide thumbnails for unwatched episodes to avoid possible spoilers."
+msgstr "Cacher miniatures pour les épisodes visionnés pour éviter les spoilers possibles."
+
+msgctxt "#31023"
+msgid "Special[CR]Features"
+msgstr "Fonctions[CR]spéciales"
+
+msgctxt "#31034"
+msgid "Select which Rotten Tomatoes rating to use."
+msgstr "Sélectionnez le classement à utiliser pour les Rotten Tomatoes."
+
+msgctxt "#31035"
+msgid "Still there?"
+msgstr "toujours là?"
+
+msgctxt "#31036"
+msgid "Displays fanart for your media in the background."
+msgstr "Affiche fanart pour vos médias en arrière-plan."
+
+msgctxt "#31024"
+msgid "Widget Name"
+msgstr "Nom du Widget"
+
+msgctxt "#31038"
+msgid "Select your scrapers certification county."
+msgstr "Choisissez votre scrapers comté de certification."
+
+msgctxt "#31039"
+msgid "Enable debug grid.[CR]Useful when skinning."
+msgstr "Activer grille de débogage.[CR]Utile pour le skinning."
+
+msgctxt "#31040"
+msgid "Enable debug info.[CR]Useful for bug reporting."
+msgstr "Activer les informations de débogage.[CR]Utile pour les rapports de bogues."
+
+msgctxt "#31025"
+msgid "Notice"
+msgstr "Avis"
+
+msgctxt "#31026"
+msgid "Overview"
+msgstr "Vue d'ensemble"
+
+msgctxt "#31043"
+msgid "Turn Off Randomise"
+msgstr "Désactiver Randomiser"
+
+msgctxt "#31029"
+msgid "Addon Details"
+msgstr "Détails Addon"
+
+msgctxt "#31045"
+msgid "Turn On Randomise"
+msgstr "Activer Randomiser"
+
+msgctxt "#31046"
+msgid "Turn Off Shuffle All"
+msgstr "Désactiver Aléatoire Tous"
+
+msgctxt "#31033"
+msgid "Launch Now"
+msgstr "Lancer maintenant"
+
+msgctxt "#31037"
+msgid "Hide Unwatched Episode Thumbs"
+msgstr "Masquer les miniatures d'épisode non vue"
+
+msgctxt "#31041"
+msgid "Debug grid"
+msgstr "Grille de débogage"
+
+msgctxt "#31042"
+msgid "Debug labels"
+msgstr "Labels de débogage"
+
+msgctxt "#31044"
+msgid "Local subtitle found!"
+msgstr "Sous-titre local trouvé!"
+
+msgctxt "#31052"
+msgid "Turn On[CR]Shuffle All"
+msgstr "Activer[CR]Lecture aléatoire de toutes"
+
+msgctxt "#31053"
+msgid "Turn Off[CR]Repeat"
+msgstr "Désactiver[CR]Répéter"
+
+msgctxt "#31054"
+msgid "Repeat This[CR]Item"
+msgstr "Répétez cette[CR]Item"
+
+msgctxt "#31055"
+msgid "Turn On[CR]Repeat All"
+msgstr "Activer[CR]Répéter tout"
+
+msgctxt "#31056"
+msgid "Move, copy and delete your files with KODI's built-in file manager."
+msgstr "Déplacer, copier et supprimer vos fichiers avec le gestionnaire de fichiers intégré à KODI."
+
+msgctxt "#31057"
+msgid "Watch[CR]Again"
+msgstr "Regarder[CR]Encore"
+
+msgctxt "#31058"
+msgid "Today's weather:"
+msgstr "La météo du jour:"
+
+msgctxt "#31059"
+msgid "Tonight's weather:"
+msgstr "Météo de ce soir:"
+
+msgctxt "#31060"
+msgid "Play Now"
+msgstr "Lire maintenant"
+
+msgctxt "#31050"
+msgid "TV Shows starring"
+msgstr "Séries TV mettant en vedette"
+
+msgctxt "#31047"
+msgid "Visualisation Presets"
+msgstr "Paramètres prédéfinis de visualisation"
+
+msgctxt "#31048"
+msgid "Playlist Options"
+msgstr "Options de liste de lecture"
+
+msgctxt "#31049"
+msgid "Customise Home Menu"
+msgstr "Personnaliser Menu d'Accueil"
+
+msgctxt "#31051"
+msgid "Images"
+msgstr "Images"
+
+msgctxt "#31062"
+msgid "Choose Thumb"
+msgstr "Choisissez miniatures"
+
+msgctxt "#31067"
+msgid "Choose Fanart"
+msgstr "Choisissez Fanart"
+
+msgctxt "#31068"
+msgid "IP"
+msgstr ""
+
+msgctxt "#31069"
+msgid "Images for"
+msgstr "Images pour"
+
+msgctxt "#31070"
+msgid "Similar Titles"
+msgstr "Titres similaires"
+
+msgctxt "#31071"
+msgid "Starring"
+msgstr "Mettant en vedette"
+
+msgctxt "#31072"
+msgid "Directed by"
+msgstr "Mise en scène par"
+
+msgctxt "#31073"
+msgid "Next episode"
+msgstr "Prochain épisode"
+
+msgctxt "#31074"
+msgid "Browse[CR]TV Show"
+msgstr "Parcourir[CR]Série Télé"
+
+msgctxt "#31075"
+msgid "Play[CR]Trailer"
+msgstr "Jouer la[CR]bande-annonce"
+
+msgctxt "#31076"
+msgid "Cast and Role"
+msgstr "Casting et rôle"
+
+msgctxt "#31077"
+msgid "Viewers Also Watched"
+msgstr "Les gens ont également regardé"
+
+msgctxt "#31078"
+msgid "Sorry, nothing found."
+msgstr "Désolé, rien trouvé."
+
+msgctxt "#31079"
+msgid ""
+msgstr ""
+
+msgctxt "#31080"
+msgid "Path"
+msgstr "Chemin"
+
+msgctxt "#31081"
+msgid "File name"
+msgstr "Nom du fichier"
+
+msgctxt "#31082"
+msgid ""
+msgstr ""
+
+msgctxt "#31083"
+msgid ""
+msgstr ""
+
+msgctxt "#31084"
+msgid ""
+msgstr ""
+
+msgctxt "#31085"
+msgid "Shutdown Menu"
+msgstr "Menu d'arrêt"
+
+msgctxt "#31086"
+msgid "Sorted by"
+msgstr "Trié par"
+
+msgctxt "#31087"
+msgid ""
+msgstr ""
+
+msgctxt "#31088"
+msgid "Current Playlist"
+msgstr "Liste de Lecture actuelle"
+
+msgctxt "#31089"
+msgid "View Options"
+msgstr "Afficher les options"
+
+msgctxt "#31090"
+msgid "Update Library"
+msgstr "Mise à jour de la Bibliothèque"
+
+msgctxt "#31091"
+msgid "Stop scanning"
+msgstr "Arrêter le scan"
+
+msgctxt "#31092"
+msgid "Sort By"
+msgstr "Trier par"
+
+msgctxt "#31093"
+msgid "Filter By"
+msgstr "Filtrer par"
+
+msgctxt "#31094"
+msgid "Save Playlist"
+msgstr "Enregistrer la liste"
+
+msgctxt "#31095"
+msgid "Clear Playlist"
+msgstr "Effacer la liste"
+
+msgctxt "#31096"
+msgid ""
+msgstr ""
+
+msgctxt "#31097"
+msgid ""
+msgstr ""
+
+msgctxt "#31098"
+msgid "Press 'Continue?' to watch the next episode or 'Cancel' to stop watching."
+msgstr "Appuyez sur 'Continuer?' pour regarder le prochain épisode ou 'Annuler' pour arrêter."
+
+msgctxt "#31099"
+msgid "Start Slideshow"
+msgstr "Démarrer le diaporama"
+
+msgctxt "#31061"
+msgid ""
+msgstr ""
+
+msgctxt "#31063"
+msgid ""
+msgstr ""
+
+msgctxt "#31064"
+msgid ""
+msgstr ""
+
+msgctxt "#31065"
+msgid ""
+msgstr ""
+
+msgctxt "#31066"
+msgid ""
+msgstr ""
+
+msgctxt "#31105"
+msgid "Your Addons"
+msgstr "Vos Addons"
+
+msgctxt "#31106"
+msgid "Now Playing"
+msgstr "Lecture en cours"
+
+msgctxt "#31107"
+msgid "TV Roles"
+msgstr "Rôles Séries TV"
+
+msgctxt "#31108"
+msgid "Known For"
+msgstr "Connu pour"
+
+msgctxt "#31109"
+msgid "Watch[CR]Now"
+msgstr "Regarder[CR]Maintenant"
+
+msgctxt "#31110"
+msgid "Written by"
+msgstr "Écrit par"
+
+msgctxt "#31111"
+msgid ""
+msgstr ""
+
+msgctxt "#31112"
+msgid ""
+msgstr ""
+
+msgctxt "#31113"
+msgid ""
+msgstr ""
+
+msgctxt "#31114"
+msgid "Customise Shutdown Menu"
+msgstr "Personnaliser le menu d'arrêt"
+
+msgctxt "#31115"
+msgid ""
+"Configure your Skin, Region, Control, Screensaver, and Master Lock settings."
+msgstr ""
+"Configurer votre Région, contrôle, économiseur d'écran, et de verrouillage principal."
+
+msgctxt "#31116"
+msgid "Manage, browse for, install and modify Addons."
+msgstr "Gérer, recherchez, installer et modifier addons."
+
+msgctxt "#31117"
+msgid ""
+"Configure the handling and playback settings for Video, Music, and Pictures."
+msgstr ""
+"Configurez les paramètres de manipulation et de lecture pour la vidéo, la musique et les images."
+
+msgctxt "#31118"
+msgid ""
+"Configure the media list display, information, and database settings."
+msgstr ""
+"Configurez l'affichage de la liste de supports, les informations et les paramètres de "
+"la base de données."
+msgctxt "#31119"
+msgid "Hardware decoding is active"
+msgstr "Le décodage matériel est actif"
+
+msgctxt "#31120"
+msgid "Hardware decoding is inactive"
+msgstr "Le décodage matériel est inactif"
+
+msgctxt "#31121"
+msgid ""
+"Setup and calibrate displays, configure audio output, setup remote controls,"
+" set power saving options, enable debugging and setup master lock."
+msgstr ""
+"Configuration et étalonner des écrans, configurer la sortie audio, configuration des télécommandes,"
+" Définir les options d'économie d'énergie, activer le débogage et la configuration de verrouillage maître."
+
+msgctxt "#31122"
+msgid ""
+"Setup control of Kodi via UPnP and HTTP, configure file sharing, enable "
+"Zeroconf and configure AirPlay."
+msgstr ""
+"Contrôle de la configuration de Kodi via UPnP et HTTP, configuration du partage de fichiers, activation "
+"Zeroconf and configure AirPlay."
+
+msgctxt "#31123"
+msgid "Profiles, File Manager, System Information and Settings Level."
+msgstr "Profils, Gestionnaire de fichiers, informations système et des niveaux de paramètres."
+
+msgctxt "#31124"
+msgid ""
+"Personalise your experience with profiles. Includes enabling login screen, "
+"profile creation and management."
+msgstr ""
+"Personnalisez votre expérience avec les profils. Comprend l'activation de l'écran de connexion, "
+"Création et gestion des profils."
+
+msgctxt "#31125"
+msgid "Login"
+msgstr "Connexion"
+
+msgctxt "#31126"
+msgid "Last login"
+msgstr "Dernière connexion"
+
+msgctxt "#31127"
+msgid ""
+"View your system's information. Includes storage, network, and hardware "
+"information."
+msgstr ""
+"Voir les informations de votre système. Comprend le stockage, le réseau et le matériel "
+"information."
+
+msgctxt "#31128"
+msgid "About"
+msgstr "A propos"
+
+msgctxt "#31129"
+msgid "Kodi"
+msgstr ""
+
+msgctxt "#31130"
+msgid ""
+msgstr ""
+
+msgctxt "#31131"
+msgid "Enable Wide TV Show Icons"
+msgstr "Activer les icônes larges Séries Télé"
+
+msgctxt "#31132"
+msgid "Continue watching?"
+msgstr "continuer à regarder?"
+
+msgctxt "#31133"
+msgid "Enable Wide Season Icons"
+msgstr "Activer les icônes larges pour les saisons"
+
+msgctxt "#31134"
+msgid "Enable Fanart"
+msgstr "Activer Fanart"
+
+msgctxt "#31135"
+msgid "Select Rating Country"
+msgstr "Sélectionner la notation Pays"
+
+msgctxt "#31136"
+msgid "DVD Menu"
+msgstr "Menu DVD"
+
+msgctxt "#31137"
+msgid "Video Options"
+msgstr "Options vidéo"
+
+msgctxt "#31138"
+msgid ""
+msgstr ""
+
+msgctxt "#31139"
+msgid ""
+msgstr ""
+
+msgctxt "#31140"
+msgid ""
+msgstr ""
+
+msgctxt "#31141"
+msgid ""
+msgstr ""
+
+msgctxt "#31142"
+msgid ""
+msgstr ""
+
+msgctxt "#31143"
+msgid "This will undo any changes you've made to the home menu and widgets."
+msgstr "Cela annule toutes les modifications que vous avez apportées au menu d'accueil et widgets."
+
+msgctxt "#31144"
+msgid ""
+msgstr ""
+
+msgctxt "#31145"
+msgid "percent remaining"
+msgstr "pour cent restants"
+
+msgctxt "#31146"
+msgid "Special"
+msgstr "Spécial"
+
+msgctxt "#31147"
+msgid "minutes"
+msgstr ""
+
+msgctxt "#31148"
+msgid "hours"
+msgstr "heures"
+
+msgctxt "#31149"
+msgid "Hide OSD controls"
+msgstr "Masquer les commandes OSD"
+
+msgctxt "#31150"
+msgid "Hides the Stop, Play, Pause, etc buttons from the music and video OSD."
+msgstr "Masque les boutons Arrêter, Lire, Pause, etc. de l’OSD Musique et Vidéo."
+
+msgctxt "#31151"
+msgid "Creator"
+msgstr "Créateur"
+
+msgctxt "#31152"
+msgid "Air Date"
+msgstr "Date de mise en onde"
+
+msgctxt "#31153"
+msgid "3D Mode"
+msgstr "Mode 3D"
+
+msgctxt "#31154"
+msgid "Profile"
+msgstr "Profil"
+
+msgctxt "#31155"
+msgid "Build Version"
+msgstr "Version du Build"
+
+msgctxt "#31156"
+msgid "Capacity"
+msgstr "Capacité"
+
+msgctxt "#31157"
+msgid "Current Date and Time"
+msgstr "Date et heure actuelle"
+
+msgctxt "#31158"
+msgid "Device Name"
+msgstr "Nom du périphérique"
+
+msgctxt "#31159"
+msgid "Wide"
+msgstr "Large"
+
+msgctxt "#31160"
+msgid "Poster"
+msgstr "Affiche"
+
+msgctxt "#31161"
+msgid "Square"
+msgstr "Carré"
+
+msgctxt "#31162"
+msgid "Show"
+msgstr "Spéctacle"
+
+msgctxt "#31163"
+msgid "Start Party Mode"
+msgstr "Démarrer Party Mode"
+
+msgctxt "#31164"
+msgid "Next Up"
+msgstr "Suivant"
+
+msgctxt "#31165"
+msgid "Choose[CR]Art"
+msgstr "Choisissez[CR]Art"
+
+msgctxt "#31166"
+msgid "Open Visualiser"
+msgstr "Ouvrir Visualiseur"
+
+msgctxt "#31167"
+msgid "Recently Added Movies"
+msgstr "Films Récemment Ajouté"
+
+msgctxt "#31168"
+msgid "Your Movies"
+msgstr "Vos Films"
+
+msgctxt "#31169"
+msgid "In Progress Movies"
+msgstr "Films en cours"
+
+msgctxt "#31170"
+msgid "Kids Movies"
+msgstr "Films pour enfants"
+
+msgctxt "#31171"
+msgid ""
+msgstr ""
+
+msgctxt "#31172"
+msgid ""
+msgstr ""
+
+msgctxt "#31173"
+msgid ""
+msgstr ""
+
+msgctxt "#31174"
+msgid "Top Rated Movies"
+msgstr "Films les mieux notés"
+
+msgctxt "#31175"
+msgid "Recently Updated TV Shows"
+msgstr "Séries TV Récemment mis à jour"
+
+msgctxt "#31176"
+msgid "Your TV Shows"
+msgstr "Vos Séries TV"
+
+msgctxt "#31177"
+msgid "In Progress TV Shows"
+msgstr "Séries TV En cours"
+
+msgctxt "#31178"
+msgid "Kids TV Shows"
+msgstr "Séries TV pour Enfants"
+
+msgctxt "#31179"
+msgid ""
+msgstr ""
+
+msgctxt "#31180"
+msgid ""
+msgstr ""
+
+msgctxt "#31181"
+msgid ""
+msgstr ""
+
+msgctxt "#31182"
+msgid "Top Rated TV Shows"
+msgstr "Séries TV les mieux notées"
+
+msgctxt "#31183"
+msgid "Recently Played Albums"
+msgstr "Albums récemment jouées"
+
+msgctxt "#31184"
+msgid "Your Albums"
+msgstr "Vos albums"
+
+msgctxt "#31185"
+msgid "Recently Added Albums"
+msgstr "Albums récemment ajoutés"
+
+msgctxt "#31186"
+msgid "Your Artists"
+msgstr "Vos artistes"
+
+msgctxt "#31187"
+msgid ""
+msgstr ""
+
+msgctxt "#31188"
+msgid ""
+msgstr ""
+
+msgctxt "#31189"
+msgid ""
+msgstr ""
+
+msgctxt "#31190"
+msgid ""
+msgstr ""
+
+msgctxt "#31191"
+msgid ""
+msgstr ""
+
+msgctxt "#31192"
+msgid ""
+msgstr ""
+
+msgctxt "#31193"
+msgid ""
+msgstr ""
+
+msgctxt "#31194"
+msgid "Submit"
+msgstr "Soumettre"
+
+msgctxt "#31195"
+msgid ""
+msgstr ""
+
+msgctxt "#31196"
+msgid ""
+msgstr ""
+
+msgctxt "#31197"
+msgid "Widget"
+msgstr ""
+
+msgctxt "#31198"
+msgid "View Type"
+msgstr "Type de vue"
+
+msgctxt "#31199"
+msgid "Label Overlay"
+msgstr "Étiquette de recouvrement"
+
+msgctxt "#31200"
+msgid "Entrez le nom"
+msgstr ""
+
+msgctxt "#31201"
+msgid "Choose Shortcut"
+msgstr "Choisissez un raccourci"
+
+msgctxt "#31202"
+msgid "Widget Action"
+msgstr "Action du Widget"
+
+msgctxt "#31203"
+msgid "Square Info"
+msgstr ""
+
+msgctxt "#31204"
+msgid "Movies starring"
+msgstr "Films avec"
+
+msgctxt "#31205"
+msgid "Refresh Information"
+msgstr "Actualiser l'information"
+
+msgctxt "#31206"
+msgid "Enable Auto-Update"
+msgstr "Activer mise à jour automatique"
+
+msgctxt "#31207"
+msgid "Disable Auto-Update"
+msgstr "Désactiver mise à jour automatique"
+
+msgctxt "#31208"
+msgid "Enable Higher Levels"
+msgstr "Activer les niveaux plus élevés"
+
+msgctxt "#31209"
+msgid "Disable Higher Levels"
+msgstr "Désactiver les niveaux plus élevés"
+
+msgctxt "#31210"
+msgid "Widget Group 1"
+msgstr "Groupe de Widgets 1"
+
+msgctxt "#31211"
+msgid "Widget Group 2"
+msgstr "Groupe de Widgets 2"
+
+msgctxt "#31212"
+msgid "Widget Group 3"
+msgstr "Groupe de Widgets 3"
+
+msgctxt "#31213"
+msgid "Widget Group 4"
+msgstr "Groupe de Widgets 4"
+
+msgctxt "#31214"
+msgid "Widget Group 5"
+msgstr "Groupe de Widgets 5"
+
+msgctxt "#31215"
+msgid "Widget Group 6"
+msgstr "Groupe de Widgets 6"
+
+msgctxt "#31216"
+msgid "Widget Group 7"
+msgstr "Groupe de Widgets 7"
+
+msgctxt "#31217"
+msgid "Widget Group 8"
+msgstr "Groupe de Widgets 8"
+
+msgctxt "#31218"
+msgid "Select Widget Group"
+msgstr "Sélectionner le groupe Widget"
+
+msgctxt "#31219"
+msgid "Customise Widget Group"
+msgstr "Personnaliser le Widget"
+
+msgctxt "#31220"
+msgid ""
+msgstr ""
+
+msgctxt "#31221"
+msgid ""
+msgstr ""
+
+msgctxt "#31222"
+msgid ""
+msgstr ""
+
+msgctxt "#31223"
+msgid "Video Addons"
+msgstr "Addons vidéo"
+
+msgctxt "#31224"
+msgid "Picture Addons"
+msgstr "Addons d'Image"
+
+msgctxt "#31225"
+msgid ""
+msgstr ""
+
+msgctxt "#31226"
+msgid ""
+msgstr ""
+
+msgctxt "#31227"
+msgid "Air time"
+msgstr "temps d'antenne"
+
+msgctxt "#31228"
+msgid ""
+msgstr ""
+
+msgctxt "#31229"
+msgid "Cancel Next Up"
+msgstr "Annuler Suivant"
+
+msgctxt "#31230"
+msgid "Sorry, no shows are airing at this time."
+msgstr "Désolé, aucune émission n'est diffusée pour le moment."
+
+msgctxt "#31231"
+msgid "Please try again later."
+msgstr "S'il vous plaît réessayer plus tard."
+
+msgctxt "#31232"
+msgid "Cast and Role"
+msgstr "Casting et rôle"
+
+msgctxt "#31233"
+msgid "View All Cast"
+msgstr "Voir tous les Acteur"
+
+msgctxt "#31234"
+msgid "Browse Addons"
+msgstr "Parcourir les Addons"
+
+msgctxt "#31235"
+msgid "Your Rating"
+msgstr "Votre Note"
+
+# Doit correspondre # 31235 sans l'espace
+
+msgctxt "#31236"
+msgid "YourRating"
+msgstr "VotreNote"
+
+msgctxt "#31237"
+msgid "Select your rating"
+msgstr "Sélectionnez votre note"
+
+msgctxt "#31238"
+msgid "This is your own personal rating and is not shared publicly"
+msgstr "Ceci est votre évaluation personnelle et n'est pas partagé publiquement"
+
+msgctxt "#31239"
+msgid "Press play to resume"
+msgstr "Appuyez sur play pour reprendre"
+
+msgctxt "#31240"
+msgid "Not rated"
+msgstr "Non classé"
+
+msgctxt "#31241"
+msgid "I hate it"
+msgstr "Je déteste ça"
+
+msgctxt "#31242"
+msgid "I don't like it"
+msgstr "Je ne l'aime pas"
+
+msgctxt "#31243"
+msgid "It's okay"
+msgstr "Il est correct"
+
+msgctxt "#31244"
+msgid "I like it"
+msgstr "Je l'aime"
+
+msgctxt "#31245"
+msgid "I love it"
+msgstr "Je l'adore"
+
+msgctxt "#31246"
+msgid "Location"
+msgstr "Emplacement"
+
+msgctxt "#31247"
+msgid "Media Processing Info"
+msgstr ""
+
+msgctxt "#31248"
+msgid "Order"
+msgstr "Ordre"
+
+msgctxt "#31249"
+msgid "View Addons that have recently been updated."
+msgstr "Voir les addons qui ont récemment été mis à jour."
+
+msgctxt "#31250"
+msgid "Configure various game settings."
+msgstr "Configurer les différents paramètres du jeu."
+
+msgctxt "#31251"
+msgid "Watchlist"
+msgstr ""
+
+msgctxt "#31252"
+msgid "This skin only supports a maximum of 13 home menu items. Please remove some to ensure everything works correctly."
+msgstr "Ce skin ne prend en charge qu'un maximum de 13 éléments de menu d'accueil. Veuillez en retirer pour vous assurer que tout fonctionne correctement."
+
+msgctxt "#31253"
+msgid "No items found in Your Favourites"
+msgstr "Aucun élément trouvé dans vos favoris"
+
+msgctxt "#31254"
+msgid "When you add Favourites they will appear here"
+msgstr "Lorsque vous ajoutez des favoris, ils apparaîtront ici"
+
+msgctxt "#31255"
+msgid "Reset Home Menu"
+msgstr "Réinitialiser le menu d'accueil"
+
+msgctxt "#31256"
+msgid "What's[CR]New"
+msgstr "Qu'est ce qui est[CR]Nouveau"
+
+msgctxt "#31257"
+msgid "Rotten Tomatoes Rating"
+msgstr "Note Rotten Tomatoes"
+
+msgctxt "#31258"
+msgid "TomatoMeter All Critics"
+msgstr "Toutes les critiques TomatoMeter"
+
+msgctxt "#31259"
+msgid "TomatoMeter Audience Score"
+msgstr "Note Public TomatoMeter"
+
+msgctxt "#31260"
+msgid "Average Rating All Critics"
+msgstr "Note moyenne de toutes les critiques"
+
+msgctxt "#31261"
+msgid "Average Rating Audience Score"
+msgstr "Note moyenne Public"
