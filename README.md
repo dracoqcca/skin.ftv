@@ -28,6 +28,6 @@ Original fTV skin by Hitcher: http://forum.kodi.tv/showthread.php?tid=207475
 #Most important changes so far:
 - increase some of the font size
 - adding header to textboxviewer
-- adding remaining time in hte seekbar
+- adding remaining time in the seekbar
 - adding file name and file path to some of the windows
 - adding some variable
