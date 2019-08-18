@@ -67,6 +67,19 @@
 						<visible>String.IsEmpty(MusicPlayer.Title)</visible>
 					</control>
 				</control>
+			<!--  File name -->
+			<control type="label">
+				<left>20</left>
+				<top>0</top>
+				<width>1880</width>
+				<height>40</height>
+				<aligny>top</aligny>
+				<align>center</align>				
+				<font>Light32</font>
+				<textcolor>fffafafa</textcolor>
+				<shadowcolor>ff000000</shadowcolor>
+				<label>$INFO[Player.Filename]</label>
+			</control>
 				<!--  Episode title -->
 				<control type="label">
 					<left>20</left>
@@ -193,6 +206,23 @@
 						<font>OSD32</font>
 						<textcolor>ff696969</textcolor>
 						<label>$VAR[PlayerDuration]</label>
+					</control>
+					<!--  Divider -->
+					<control type="label">
+						<width>auto</width>
+						<height>34</height>
+						<font>OSD32</font>
+						<textcolor>ff696969</textcolor>
+						<label>/</label>
+						<visible>!String.IsEmpty(Player.TimeRemaining) + !String.IsEmpty(Player.Duration)</visible>
+					</control>
+					<!--  Time Remaining -->
+					<control type="label">
+						<width>auto</width>
+						<height>34</height>
+						<font>OSD32</font>
+						<textcolor>fff3f3f3</textcolor>
+						<label>$VAR[PlayerRemaining]</label>
 					</control>
 					<!--  4K label -->
 					<control type="label">
@@ -330,6 +360,23 @@
 						<textcolor>ff696969</textcolor>
 						<label>$VAR[PlayerDuration]</label>
 					</control>
+					<!--  Divider -->
+					<control type="label">
+						<width>auto</width>
+						<height>34</height>
+						<font>OSD32</font>
+						<textcolor>ff696969</textcolor>
+						<label>/</label>
+						<visible>!String.IsEmpty(Player.TimeRemaining) + !String.IsEmpty(Player.Duration)</visible>
+					</control>
+					<!--  Time Remaining -->
+					<control type="label">
+						<width>auto</width>
+						<height>34</height>
+						<font>OSD32</font>
+						<textcolor>fff3f3f3</textcolor>
+						<label>$VAR[PlayerRemaining]</label>
+					</control>
 					<!--  4K label -->
 					<control type="label">
 						<left>24</left>
@@ -424,7 +471,7 @@
 					<align>center</align>
 					<font>OSD20</font>
 					<textcolor>ffe5e4e5</textcolor>
-					<label>$VAR[SeekOffsetNew]</label>
+					<label>$VAR[SeekOffset]</label>
 				</control>
 				<control type="slider" id="401">
 					<left>92</left>
