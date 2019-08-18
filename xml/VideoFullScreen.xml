@@ -111,6 +111,19 @@
 					<height>210</height>
 					<texture border="1">osd/mask_top.png</texture>
 				</control>
+				<!--  File name -->
+				<control id="99" type="label">
+					<left>20</left>
+					<top>0</top>
+					<width>1880</width>
+					<height>40</height>
+					<aligny>top</aligny>
+					<align>center</align>				
+					<font>Light32</font>
+					<textcolor>fffafafa</textcolor>
+					<shadowcolor>ff000000</shadowcolor>
+					<label>$INFO[Player.Filename]</label>
+				</control>
 				<control id="99" type="grouplist">
 					<left>20</left>
 					<top>64</top>
@@ -230,6 +243,23 @@
 						<font>OSD32</font>
 						<textcolor>ff696969</textcolor>
 						<label>$VAR[PlayerDuration]</label>
+					</control>
+					<!--  Divider -->
+					<control id="99" type="label">
+						<width>auto</width>
+						<height>34</height>
+						<font>OSD32</font>
+						<textcolor>ff696969</textcolor>
+						<label>/</label>
+						<visible>!String.IsEmpty(Player.TimeRemaining) + !String.IsEmpty(Player.Duration)</visible>
+					</control>
+					<!--  Time Remaining -->
+					<control id="99" type="label">
+						<width>auto</width>
+						<height>34</height>
+						<font>OSD32</font>
+						<textcolor>fff3f3f3</textcolor>
+						<label>$VAR[PlayerRemaining]</label>
 					</control>
 					<!--  4K label -->
 					<control id="99" type="label">
@@ -785,7 +815,7 @@
 							<aligny>top</aligny>
 							<font>OSD32</font>
 							<textcolor>ffffffff</textcolor>
-							<label>$VAR[PlayerTime]</label>
+							<label>$VAR[PlayerRemaining]</label>
 						</control>
 					</control>
 				</control>

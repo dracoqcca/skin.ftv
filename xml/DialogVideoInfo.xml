@@ -360,9 +360,9 @@
 				<!-- Plot -->
 				<control type="textbox">
 					<width>1192</width>
-					<height max="124">auto</height>
+					<height max="100">auto</height>
 					<align>left</align>
-					<font>Light30Spaced</font>
+					<font>Light32Spaced</font>
 					<autoscroll>false</autoscroll>
 					<textcolor>ffbbbbbb</textcolor>
 					<label>$VAR[Plot]</label>
@@ -390,7 +390,7 @@
 			</control>
 			<!-- Starring -->
 			<control type="grouplist">
-				<top>297</top>
+				<top>247</top>
 				<height>40</height>
 				<itemgap>20</itemgap>
 				<include>DialogVideoInfoAnimation</include>
@@ -419,7 +419,7 @@
 			</control>
 			<!-- Director -->
 			<control type="grouplist">
-				<top>339</top>
+				<top>287</top>
 				<width>1192</width>
 				<height>40</height>
 				<itemgap>20</itemgap>
@@ -445,6 +445,65 @@
 					<aligny>bottom</aligny>
 					<textcolor>ffbcbcbc</textcolor>
 					<label>$INFO[ListItem.Director]</label>
+				</control>
+			</control>
+			<!-- path display -->
+			<control type="grouplist">
+				<top>327</top>
+				<height>40</height>
+				<itemgap>20</itemgap>
+				<include>DialogVideoInfoAnimation</include>
+				<orientation>horizontal</orientation>
+				<usecontrolcoords>true</usecontrolcoords>
+				<visible>!String.IsEmpty(ListItem.FolderPath)</visible>
+				<animation condition="Control.HasFocus(500) | Control.HasFocus(5000)" effect="fade" end="0" start="100" time="0">Conditional</animation>
+				<animation condition="!Control.HasFocus(500) + !Control.HasFocus(5000)" delay="200" effect="fade" end="100" start="0" time="80">Conditional</animation>
+				<control type="label">
+					<width>auto</width>
+					<height>24</height>
+					<font>Med30</font>
+					<aligny>bottom</aligny>
+					<textcolor>ff717171</textcolor>
+					<label>$LOCALIZE[31080]:</label>
+				</control>
+				<control type="label">
+					<top>-1</top>
+					<width max="1024">auto</width>
+					<height>24</height>
+					<scroll>true</scroll>
+					<font>Light30Spaced</font>
+					<aligny>bottom</aligny>
+					<textcolor>ffbcbcbc</textcolor>
+					<label>$INFO[ListItem.Path]</label>
+				</control>
+			</control>
+			<!-- File Name label -->
+			<control type="grouplist">
+				<top>367</top>
+				<height>40</height>
+				<itemgap>20</itemgap>
+				<include>DialogVideoInfoAnimation</include>
+				<orientation>horizontal</orientation>
+				<usecontrolcoords>true</usecontrolcoords>
+				<animation condition="Control.HasFocus(50) | Control.HasFocus(5000)" effect="fade" end="0" start="100" time="0">Conditional</animation>
+				<animation condition="!Control.HasFocus(50) + !Control.HasFocus(5000)" delay="200" effect="fade" end="100" start="0" time="80">Conditional</animation>
+				<control type="label">
+					<width>auto</width>
+					<height>24</height>
+					<font>Med30</font>
+					<aligny>bottom</aligny>
+					<textcolor>ff717171</textcolor>
+					<label>$LOCALIZE[31081]:</label>
+				</control>
+				<control type="label">
+					<top>-1</top>
+					<width max="1024">auto</width>
+					<height>24</height>
+					<scroll>true</scroll>
+					<font>Light30Spaced</font>
+					<aligny>bottom</aligny>
+					<textcolor>ffbcbcbc</textcolor>
+					<label>$INFO[ListItem.Filename]</label>
 				</control>
 			</control>
 			<!-- Next Airs -->
@@ -480,7 +539,7 @@
 			<!-- Button grouplist -->
 			<control id="9000" type="grouplist">
 				<left>-12</left>
-				<top>409</top>
+				<top>415</top>
 				<width>1620</width>
 				<height>116</height>
 				<itemgap>0</itemgap>
@@ -678,6 +737,7 @@
 			<left>-67</left>
 			<top>686</top>
 			<animation effect="fade" end="100" start="0" time="200" delay="800">WindowOpen</animation>
+
 			<!-- Cast label -->
 			<control type="label">
 				<left>575</left>

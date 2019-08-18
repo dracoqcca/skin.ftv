@@ -290,6 +290,19 @@
 					<label>$VAR[PlayerEpisodeValue]</label>
 				</control>
 			</control>
+			<control type="label">
+				<left>20</left>
+				<top>0</top>
+				<width max="1880">auto</width>
+				<height>40</height>
+				<aligny>top</aligny>
+				<align>center</align>				
+				<font>Light32</font>
+				<scroll>true</scroll>
+				<textcolor>fffafafa</textcolor>
+				<shadowcolor>ff000000</shadowcolor>
+				<label>$INFO[Player.Filename]</label>
+			</control>
 			<!--  Episode title -->
 			<control type="label">
 				<left>20</left>
@@ -383,6 +396,23 @@
 					<font>OSD32</font>
 					<textcolor>ff696969</textcolor>
 					<label>$VAR[PlayerDuration]</label>
+				</control>
+				<!--  Divider -->
+				<control type="label">
+					<width>auto</width>
+					<height>34</height>
+					<font>OSD32</font>
+					<textcolor>ff696969</textcolor>
+					<label>/</label>
+					<visible>!String.IsEmpty(Player.TimeRemaining) + !String.IsEmpty(Player.Duration)</visible>
+				</control>
+				<!--  Time Remaining -->
+				<control type="label">
+					<width>auto</width>
+					<height>34</height>
+					<font>OSD32</font>
+					<textcolor>fff3f3f3</textcolor>
+					<label>$VAR[PlayerRemaining]</label>
 				</control>
 				<!--  4K label -->
 				<control type="label">
