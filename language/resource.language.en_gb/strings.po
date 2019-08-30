@@ -1,23 +1,23 @@
-# XBMC Media Center language file
+# Kodi Media Center language file
 # Addon Name: fTV
 # Addon id: skin.ftv
 # Addon Provider: Hitcher
 msgid ""
 msgstr ""
-"Project-Id-Version: XBMC Main\n"
-"Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
+"Project-Id-Version: KODI Skins\n"
+"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: XBMC Translation Team\n"
-"Language-Team: English (http://www.transifex.com/projects/p/xbmc-main/language/en/)\n"
-"Language: en\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (United Kingdom) (http://www.transifex.com/projects/p/kodi-skins/language/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgctxt "#31100"
-msgid "Photos"
+msgctxt "#31000"
+msgid "Audio Options"
 msgstr ""
 
 msgctxt "#31001"
@@ -44,26 +44,6 @@ msgctxt "#31006"
 msgid "Starts at"
 msgstr ""
 
-msgctxt "#31101"
-msgid "Apps"
-msgstr ""
-
-msgctxt "#31102"
-msgid "Now playing"
-msgstr ""
-
-msgctxt "#31103"
-msgid "Addons"
-msgstr ""
-
-msgctxt "#31104"
-msgid "Cinema Experience"
-msgstr ""
-
-msgctxt "#31000"
-msgid "Audio Options"
-msgstr ""
-
 msgctxt "#31007"
 msgid "System music files"
 msgstr ""
@@ -74,36 +54,6 @@ msgstr ""
 
 msgctxt "#31009"
 msgid "Open playlist"
-msgstr ""
-
-msgctxt "#31014"
-msgid "Next Movie"
-msgstr ""
-
-msgctxt "#31015"
-msgid "Next Video"
-msgstr ""
-
-msgctxt "#31017"
-msgid "View all of your enabled and disabled Addons."
-msgstr ""
-
-msgctxt "#31018"
-msgid "View Addons that have updates available."
-msgstr ""
-
-msgctxt "#31019"
-msgid "View Addons that are currently being downloaded."
-msgstr ""
-
-msgctxt "#31020"
-msgid ""
-"View all the system Addons including Dependencies, Orphaned Dependencies, "
-"and Running Addons."
-msgstr ""
-
-msgctxt "#31021"
-msgid "Download Addons from your installed repos."
 msgstr ""
 
 msgctxt "#31010"
@@ -122,8 +72,56 @@ msgctxt "#31013"
 msgid "Muted"
 msgstr ""
 
+msgctxt "#31014"
+msgid "Next Movie"
+msgstr ""
+
+msgctxt "#31015"
+msgid "Next Video"
+msgstr ""
+
 msgctxt "#31016"
 msgid "Settings level"
+msgstr ""
+
+msgctxt "#31017"
+msgid "View all of your enabled and disabled Addons."
+msgstr ""
+
+msgctxt "#31018"
+msgid "View Addons that have updates available."
+msgstr ""
+
+msgctxt "#31019"
+msgid "View Addons that are currently being downloaded."
+msgstr ""
+
+msgctxt "#31020"
+msgid "View all the system Addons including Dependencies, Orphaned Dependencies, and Running Addons."
+msgstr ""
+
+msgctxt "#31021"
+msgid "Download Addons from your installed repos."
+msgstr ""
+
+msgctxt "#31022"
+msgid "Update[CR]Now"
+msgstr ""
+
+msgctxt "#31023"
+msgid "Special[CR]Features"
+msgstr ""
+
+msgctxt "#31024"
+msgid "Widget Name"
+msgstr ""
+
+msgctxt "#31025"
+msgid "Notice"
+msgstr ""
+
+msgctxt "#31026"
+msgid "Overview"
 msgstr ""
 
 msgctxt "#31027"
@@ -134,8 +132,8 @@ msgctxt "#31028"
 msgid "Search for an Addon from your installed repos."
 msgstr ""
 
-msgctxt "#31022"
-msgid "Update[CR]Now"
+msgctxt "#31029"
+msgid "Addon Details"
 msgstr ""
 
 msgctxt "#31030"
@@ -150,9 +148,9 @@ msgctxt "#31032"
 msgid "Hide thumbnails for unwatched episodes to avoid possible spoilers."
 msgstr ""
 
-msgctxt "#31023"
-msgid "Special[CR]Features"
-msgstr "Not supported on this device."
+msgctxt "#31033"
+msgid "Launch Now"
+msgstr ""
 
 msgctxt "#31034"
 msgid "Select which Rotten Tomatoes rating to use."
@@ -166,8 +164,8 @@ msgctxt "#31036"
 msgid "Displays fanart for your media in the background."
 msgstr ""
 
-msgctxt "#31024"
-msgid "Widget Name"
+msgctxt "#31037"
+msgid "Hide Unwatched Episode Thumbs"
 msgstr ""
 
 msgctxt "#31038"
@@ -182,20 +180,20 @@ msgctxt "#31040"
 msgid "Enable debug info.[CR]Useful for bug reporting."
 msgstr ""
 
-msgctxt "#31025"
-msgid "Notice"
+msgctxt "#31041"
+msgid "Debug grid"
 msgstr ""
 
-msgctxt "#31026"
-msgid "Overview"
+msgctxt "#31042"
+msgid "Debug labels"
 msgstr ""
 
 msgctxt "#31043"
 msgid "Turn Off Randomise"
 msgstr ""
 
-msgctxt "#31029"
-msgid "Addon Details"
+msgctxt "#31044"
+msgid "Local subtitle found!"
 msgstr ""
 
 msgctxt "#31045"
@@ -206,24 +204,24 @@ msgctxt "#31046"
 msgid "Turn Off Shuffle All"
 msgstr ""
 
-msgctxt "#31033"
-msgid "Launch Now"
+msgctxt "#31047"
+msgid "Visualisation Presets"
 msgstr ""
 
-msgctxt "#31037"
-msgid "Hide Unwatched Episode Thumbs"
+msgctxt "#31048"
+msgid "Playlist Options"
 msgstr ""
 
-msgctxt "#31041"
-msgid "Debug grid"
+msgctxt "#31049"
+msgid "Customise Home Menu"
 msgstr ""
 
-msgctxt "#31042"
-msgid "Debug labels"
+msgctxt "#31050"
+msgid "TV Shows starring"
 msgstr ""
 
-msgctxt "#31044"
-msgid "Local subtitle found!"
+msgctxt "#31051"
+msgid "Images"
 msgstr ""
 
 msgctxt "#31052"
@@ -262,29 +260,13 @@ msgctxt "#31060"
 msgid "Play Now"
 msgstr ""
 
-msgctxt "#31050"
-msgid "TV Shows starring"
-msgstr ""
-
-msgctxt "#31047"
-msgid "Visualisation Presets"
-msgstr ""
-
-msgctxt "#31048"
-msgid "Playlist Options"
-msgstr ""
-
-msgctxt "#31049"
-msgid "Customise Home Menu"
-msgstr ""
-
-msgctxt "#31051"
-msgid "Images"
-msgstr ""
+#empty string with id 31061
 
 msgctxt "#31062"
 msgid "Choose Thumb"
 msgstr ""
+
+#empty strings from id 31063 to 31066
 
 msgctxt "#31067"
 msgid "Choose Fanart"
@@ -334,29 +316,7 @@ msgctxt "#31078"
 msgid "Sorry, nothing found."
 msgstr ""
 
-msgctxt "#31079"
-msgid ""
-msgstr ""
-
-msgctxt "#31080"
-msgid ""
-msgstr ""
-
-msgctxt "#31081"
-msgid ""
-msgstr ""
-
-msgctxt "#31082"
-msgid ""
-msgstr ""
-
-msgctxt "#31083"
-msgid ""
-msgstr ""
-
-msgctxt "#31084"
-msgid ""
-msgstr ""
+#empty strings from id 31079 to 31084
 
 msgctxt "#31085"
 msgid "Shutdown Menu"
@@ -366,9 +326,7 @@ msgctxt "#31086"
 msgid "Sorted by"
 msgstr ""
 
-msgctxt "#31087"
-msgid ""
-msgstr ""
+#empty string with id 31087
 
 msgctxt "#31088"
 msgid "Current Playlist"
@@ -402,13 +360,7 @@ msgctxt "#31095"
 msgid "Clear Playlist"
 msgstr ""
 
-msgctxt "#31096"
-msgid ""
-msgstr ""
-
-msgctxt "#31097"
-msgid ""
-msgstr ""
+#empty strings from id 31096 to 31097
 
 msgctxt "#31098"
 msgid "Press 'Continue?' to watch the next episode or 'Cancel' to stop watching."
@@ -418,24 +370,24 @@ msgctxt "#31099"
 msgid "Start Slideshow"
 msgstr ""
 
-msgctxt "#31061"
-msgid ""
+msgctxt "#31100"
+msgid "Photos"
 msgstr ""
 
-msgctxt "#31063"
-msgid ""
+msgctxt "#31101"
+msgid "Apps"
 msgstr ""
 
-msgctxt "#31064"
-msgid ""
+msgctxt "#31102"
+msgid "Now playing"
 msgstr ""
 
-msgctxt "#31065"
-msgid ""
+msgctxt "#31103"
+msgid "Addons"
 msgstr ""
 
-msgctxt "#31066"
-msgid ""
+msgctxt "#31104"
+msgid "Cinema Experience"
 msgstr ""
 
 msgctxt "#31105"
@@ -462,25 +414,14 @@ msgctxt "#31110"
 msgid "Written by"
 msgstr ""
 
-msgctxt "#31111"
-msgid ""
-msgstr ""
-
-msgctxt "#31112"
-msgid ""
-msgstr ""
-
-msgctxt "#31113"
-msgid ""
-msgstr ""
+#empty strings from id 31111 to 31113
 
 msgctxt "#31114"
 msgid "Customise Shutdown Menu"
 msgstr ""
 
 msgctxt "#31115"
-msgid ""
-"Configure your Skin, Region, Control, Screensaver, and Master Lock settings."
+msgid "Configure your Skin, Region, Control, Screensaver, and Master Lock settings."
 msgstr ""
 
 msgctxt "#31116"
@@ -488,13 +429,11 @@ msgid "Manage, browse for, install and modify Addons."
 msgstr ""
 
 msgctxt "#31117"
-msgid ""
-"Configure the handling and playback settings for Video, Music, and Pictures."
+msgid "Configure the handling and playback settings for Video, Music, and Pictures."
 msgstr ""
 
 msgctxt "#31118"
-msgid ""
-"Configure the media list display, information, and database settings."
+msgid "Configure the media list display, information, and database settings."
 msgstr ""
 
 msgctxt "#31119"
@@ -506,15 +445,11 @@ msgid "Hardware decoding is inactive"
 msgstr ""
 
 msgctxt "#31121"
-msgid ""
-"Setup and calibrate displays, configure audio output, setup remote controls,"
-" set power saving options, enable debugging and setup master lock."
+msgid "Setup and calibrate displays, configure audio output, setup remote controls, set power saving options, enable debugging and setup master lock."
 msgstr ""
 
 msgctxt "#31122"
-msgid ""
-"Setup control of Kodi via UPnP and HTTP, configure file sharing, enable "
-"Zeroconf and configure AirPlay."
+msgid "Setup control of Kodi via UPnP and HTTP, configure file sharing, enable Zeroconf and configure AirPlay."
 msgstr ""
 
 msgctxt "#31123"
@@ -522,9 +457,7 @@ msgid "Profiles, File Manager, System Information and Settings Level."
 msgstr ""
 
 msgctxt "#31124"
-msgid ""
-"Personalise your experience with profiles. Includes enabling login screen, "
-"profile creation and management."
+msgid "Personalise your experience with profiles. Includes enabling login screen, profile creation and management."
 msgstr ""
 
 msgctxt "#31125"
@@ -536,9 +469,7 @@ msgid "Last login"
 msgstr ""
 
 msgctxt "#31127"
-msgid ""
-"View your system's information. Includes storage, network, and hardware "
-"information."
+msgid "View your system's information. Includes storage, network, and hardware information."
 msgstr ""
 
 msgctxt "#31128"
@@ -549,9 +480,7 @@ msgctxt "#31129"
 msgid "Kodi"
 msgstr ""
 
-msgctxt "#31130"
-msgid ""
-msgstr ""
+#empty string with id 31130
 
 msgctxt "#31131"
 msgid "Enable Wide TV Show Icons"
@@ -581,33 +510,13 @@ msgctxt "#31137"
 msgid "Video Options"
 msgstr ""
 
-msgctxt "#31138"
-msgid ""
-msgstr ""
-
-msgctxt "#31139"
-msgid ""
-msgstr ""
-
-msgctxt "#31140"
-msgid ""
-msgstr ""
-
-msgctxt "#31141"
-msgid ""
-msgstr ""
-
-msgctxt "#31142"
-msgid ""
-msgstr ""
+#empty strings from id 31138 to 31142
 
 msgctxt "#31143"
 msgid "This will undo any changes you've made to the home menu and widgets."
 msgstr ""
 
-msgctxt "#31144"
-msgid ""
-msgstr ""
+#empty string with id 31144
 
 msgctxt "#31145"
 msgid "percent remaining"
@@ -713,17 +622,7 @@ msgctxt "#31170"
 msgid "Kids Movies"
 msgstr ""
 
-msgctxt "#31171"
-msgid ""
-msgstr ""
-
-msgctxt "#31172"
-msgid ""
-msgstr ""
-
-msgctxt "#31173"
-msgid ""
-msgstr ""
+#empty strings from id 31171 to 31173
 
 msgctxt "#31174"
 msgid "Top Rated Movies"
@@ -745,17 +644,7 @@ msgctxt "#31178"
 msgid "Kids TV Shows"
 msgstr ""
 
-msgctxt "#31179"
-msgid ""
-msgstr ""
-
-msgctxt "#31180"
-msgid ""
-msgstr ""
-
-msgctxt "#31181"
-msgid ""
-msgstr ""
+#empty strings from id 31179 to 31181
 
 msgctxt "#31182"
 msgid "Top Rated TV Shows"
@@ -777,45 +666,13 @@ msgctxt "#31186"
 msgid "Your Artists"
 msgstr ""
 
-msgctxt "#31187"
-msgid ""
-msgstr ""
-
-msgctxt "#31188"
-msgid ""
-msgstr ""
-
-msgctxt "#31189"
-msgid ""
-msgstr ""
-
-msgctxt "#31190"
-msgid ""
-msgstr ""
-
-msgctxt "#31191"
-msgid ""
-msgstr ""
-
-msgctxt "#31192"
-msgid ""
-msgstr ""
-
-msgctxt "#31193"
-msgid ""
-msgstr ""
+#empty strings from id 31187 to 31193
 
 msgctxt "#31194"
 msgid "Submit"
 msgstr ""
 
-msgctxt "#31195"
-msgid ""
-msgstr ""
-
-msgctxt "#31196"
-msgid ""
-msgstr ""
+#empty strings from id 31195 to 31196
 
 msgctxt "#31197"
 msgid "Widget"
@@ -909,17 +766,7 @@ msgctxt "#31219"
 msgid "Customise Widget Group"
 msgstr ""
 
-msgctxt "#31220"
-msgid ""
-msgstr ""
-
-msgctxt "#31221"
-msgid ""
-msgstr ""
-
-msgctxt "#31222"
-msgid ""
-msgstr ""
+#empty strings from id 31220 to 31222
 
 msgctxt "#31223"
 msgid "Video Addons"
@@ -929,21 +776,13 @@ msgctxt "#31224"
 msgid "Picture Addons"
 msgstr ""
 
-msgctxt "#31225"
-msgid ""
-msgstr ""
-
-msgctxt "#31226"
-msgid ""
-msgstr ""
+#empty strings from id 31225 to 31226
 
 msgctxt "#31227"
 msgid "Air time"
 msgstr ""
 
-msgctxt "#31228"
-msgid ""
-msgstr ""
+#empty string with id 31228
 
 msgctxt "#31229"
 msgid "Cancel Next Up"
@@ -973,7 +812,7 @@ msgctxt "#31235"
 msgid "Your Rating"
 msgstr ""
 
-# Must match #31235 without the space
+#Must match #31235 without the space
 
 msgctxt "#31236"
 msgid "YourRating"
