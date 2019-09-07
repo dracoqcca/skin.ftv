@@ -65,19 +65,20 @@
 						<label>$INFO[MusicPlayer.Title]</label>
 						<visible>String.IsEmpty(MusicPlayer.Title)</visible>
 					</control>
-				<!--  File name -->
-				<control type="label">
-					<left>20</left>
-					<top>0</top>
-					<width>1880</width>
-					<height>40</height>
-					<aligny>top</aligny>
-					<align>center</align>				
-					<font>Light32</font>
-					<textcolor>fffafafa</textcolor>
-					<shadowcolor>ff000000</shadowcolor>
-					<label>$INFO[Player.Filename]</label>
 				</control>
+			<!--  File name -->
+			<control type="label">
+				<left>20</left>
+				<top>0</top>
+				<width>1880</width>
+				<height>40</height>
+				<aligny>top</aligny>
+				<align>center</align>				
+				<font>Light32</font>
+				<textcolor>fffafafa</textcolor>
+				<shadowcolor>ff000000</shadowcolor>
+				<label>$INFO[Player.Filename]</label>
+			</control>
 				<!--  Episode title -->
 				<control type="label">
 					<left>20</left>
