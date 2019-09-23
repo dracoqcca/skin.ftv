@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.ftvjo" version="0.0.3" name="fTVJO" provider-name="Dracoqcca">
+<addon id="skin.ftvJo" version="0.0.4" name="fTVJo" provider-name="Dracoqcca">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.toolbox" version="1.0.0"/>
@@ -16,7 +16,7 @@
 		<platform>all</platform>
 		<summary lang="en_GB">Skin based on the Fire TV UI</summary>
 		<disclaimer lang="en_GB">To make use of the 'HDR' &amp; 'ATMOS' tags they need to be added to your file name.[CR]Does not support: Mouse and Touch devices or Live TV</disclaimer>
-		<description lang="en_GB">A skin designed to access all your content as easily and seemlessly as possible.[CR][CR]Supports:[CR]Global Search[CR]Next Aired[CR]Up Next[CR]Embuary Info[CR]Trakt[CR]CU Lyrics[CR]Cinema Experience[CR]Special Features[CR][CR]Based on the original Fire TV UI.</description>
+		<description lang="en_GB">A skin designed to access all your content as easily and seemlessly as possible.[CR][CR]Supports:[CR]Global Search[CR]Next Aired[CR]Up Next[CR]Embuary Info[CR]Trakt[CR]CU Lyrics[CR]Cinema Experience[CR]Special Features[CR][CR]Based on the original Fire TV UI. Base on HitcherUK version 6.1.3</description>
 		<news>Added Embuary Info support.</news>
 		<assets>
 			<icon>resources/icon.png</icon>
