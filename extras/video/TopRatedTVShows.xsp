@@ -8,6 +8,6 @@
     <rule field="rating" operator="lessthan">
         <value>10</value>
     </rule>
-    <limit>25</limit>
+    <limit>35</limit>
     <order direction="descending">rating</order>
 </smartplaylist>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<smartplaylist type="movies">
+    <name>Films pour enfants les plus joué</name>
+    <match>all</match>
+    <limit>35</limit>
+	<rule field="genre" operator="is">
+    <value>familial</value>
+    </rule>
+    <rule field="playcount" operator="greaterthan">
+    <value>0</value>
+    </rule>
+    <order direction="descending">playcount</order>
+</smartplaylist>
