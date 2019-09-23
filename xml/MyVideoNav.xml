@@ -87,6 +87,7 @@
 					<visible>Integer.IsGreater(Container.NumItems,0)</visible>
 				</control>
 			</control>
+			<!-- Path -->
 			<control type="grouplist">
 				<left>198</left>
 				<top>175</top>
