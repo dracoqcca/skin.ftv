@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.ftvJo" version="0.0.4" name="fTVJo" provider-name="Dracoqcca">
+<addon id="skin.ftvJo" version="1.0.0" name="fTVJo" provider-name="Dracoqcca">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.toolbox" version="1.0.0"/>
