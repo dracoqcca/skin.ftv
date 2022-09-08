@@ -335,6 +335,14 @@ msgid "Sorry, nothing found."
 msgstr "Désolé, je n’ai rien trouvé."
 
 # empty strings from id 31079 to 31084
+msgctxt "#31080"
+msgid "Path"
+msgstr "Chemin d’accès"
+
+msgctxt "#31081"
+msgid "File name"
+msgstr "Nom du fichier"
+
 msgctxt "#31085"
 msgid "Shutdown Menu"
 msgstr "Menu d’arrêt"

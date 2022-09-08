@@ -4,6 +4,7 @@
 	<defaultcontrol always="true">3000</defaultcontrol>
 	<onunload condition="!String.IsEmpty(Window(home).Property(OpenTextViewer))">SetFocus(50)</onunload>
 	<onunload>ClearProperty(OpenTextViewer,home)</onunload>
+	<onunload condition="Player.Paused">Play</onunload>
 	<controls>
 		<control id="5" type="textbox">
 			<font/>
@@ -34,7 +35,7 @@
 			<!-- Arrow up -->
 			<control type="image">
 				<left>942</left>
-				<top>216</top>
+				<top>135</top>
 				<width>36</width>
 				<height>20</height>
 				<texture>views/arrow_up.png</texture>
@@ -42,23 +43,65 @@
 				<animation delay="80" effect="fade" end="100" start="0" time="120">Visible</animation>
 				<animation delay="80" effect="fade" end="0" start="100" time="120">Hidden</animation>
 			</control>
-			<!-- Text -->
-			<control id="10" type="textbox">
+			<control type="grouplist">
 				<centerleft>50%</centerleft>
-				<centertop>50%</centertop>
-				<width>788</width>
-				<height>452</height>
-				<align>left</align>
-				<font>Reg36Spaced</font>
-				<pagecontrol>3000</pagecontrol>
-				<autoscroll>false</autoscroll>
-				<textcolor>ffdadada</textcolor>
-				<label>$VAR[TextViewerDescription]</label>
+				<centertop>51%</centertop>
+				<width>962</width>
+				<height>759</height>
+				<!-- File name -->
+				<control type="label">
+					<width>962</width>
+					<height>34</height>
+					<align>center</align>
+					<scroll>true</scroll>
+					<font>Light32</font>
+					<textcolor>ffdadada</textcolor>
+					<label>$VAR[TextViewerFilename]</label>
+					<visible>!String.IsEqual(Control.GetLabel(1),empty)</visible>
+				</control>
+				<!-- Title -->
+				<control type="label">
+					<width>962</width>
+					<height>38</height>
+					<align>center</align>
+					<font>Reg36Spaced</font>
+					<textcolor>ffdadada</textcolor>
+					<label>$VAR[TextViewerHeader]</label>
+					<visible>!String.IsEqual(Control.GetLabel(1),empty)</visible>
+				</control>
+				<!-- Text -->
+				<control id="10" type="textbox">
+					<centerleft>50%</centerleft>
+					<centertop>54%</centertop>
+					<width>950</width>
+					<height>641</height>
+					<align>left</align>
+					<font>Reg50</font>
+					<pagecontrol>3000</pagecontrol>
+					<autoscroll>false</autoscroll>
+					<textcolor>ffdadada</textcolor>
+					<label>$VAR[TextViewerDescription]</label>
+					<visible>!String.IsEqual(Control.GetLabel(1),empty)</visible>
+				</control>
+				<!-- Only Text (Header empty) -->
+				<control id="10" type="textbox">
+					<centerleft>50%</centerleft>
+					<centertop>54%</centertop>
+					<width>950</width>
+					<height>740</height>
+					<align>left</align>
+					<font>Reg50</font>
+					<pagecontrol>3000</pagecontrol>
+					<autoscroll>false</autoscroll>
+					<textcolor>ffdadada</textcolor>
+					<label>$VAR[TextViewerDescription]</label>
+					<visible>String.IsEqual(Control.GetLabel(1),empty)</visible>
+				</control>
 			</control>
 			<!-- Arrow down -->
 			<control type="image">
 				<left>942</left>
-				<top>844</top>
+				<top>925</top>
 				<width>36</width>
 				<height>20</height>
 				<texture>views/arrow_down.png</texture>
@@ -68,10 +111,10 @@
 			</control>
 			<!-- Scrollbar -->
 			<control id="3000" type="scrollbar">
-				<left>1394</left>
+				<left>1455</left>
 				<centertop>50%</centertop>
 				<width>8</width>
-				<height>446</height>
+				<height>600</height>
 				<onup>noop</onup>
 				<ondown>noop</ondown>
 				<onleft>Close</onleft>

@@ -11,6 +11,11 @@
 	<onunload>ClearProperty(Window(Home).Property(ForceViewType))</onunload>
 	<views>60,61,50,51,52,53,55,56,57</views>
 	<controls>
+<!-- 		<control id="9001" type="list">
+			<include>HiddenHomeList</include>
+			<preloaditems>2</preloaditems>
+			<content>plugin://script.embuary.helper/?info=getbydbid&amp;dbid=$INFO[ListItem.DBID]&amp;type=$INFO[ListItem.DBType]</content>
+		</control> -->
 		<control id="2" type="button">
 			<include>HiddenControl</include>
 			<visible>!String.IsEmpty(Container.PluginName)</visible>
@@ -80,6 +85,28 @@
 					<textcolor>ff505050</textcolor>
 					<label>$INFO[Container.NumItems]</label>
 					<visible>Integer.IsGreater(Container.NumItems,0)</visible>
+				</control>
+			</control>
+			<!-- Path -->
+			<control type="grouplist">
+				<left>198</left>
+				<top>175</top>
+				<height>80</height>
+				<itemgap>10</itemgap>
+				<orientation>horizontal</orientation>
+				<usecontrolcoords>true</usecontrolcoords>
+				<include>VisibleDelayFadeAnimation</include>
+				<visible>Control.IsVisible(96)</visible>
+				<visible>Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows)</visible>
+				<control type="label">
+					<top>15</top>
+					<width max="1024">auto</width>
+					<height>60</height>
+					<scroll>true</scroll>
+					<font>Med32</font>
+					<aligny>bottom</aligny>
+					<textcolor>ffdadada</textcolor>
+					<label>$INFO[ListItem.Path]</label>
 				</control>
 			</control>
 			<!-- Title -->
@@ -740,7 +767,7 @@
 						<width>1192</width>
 						<height>88</height>
 						<align>left</align>
-						<font>Reg30Spaced</font>
+						<font>Reg36Spaced</font> 
 						<pagecontrol>96</pagecontrol>
 						<autoscroll>false</autoscroll>
 						<textcolor>ffbcbcbc</textcolor>
@@ -1061,7 +1088,7 @@
 					<width>1192</width>
 					<height>126</height>
 					<align>left</align>
-					<font>Reg30Spaced</font>
+					<font>Reg36Spaced</font> 
 					<pagecontrol>99</pagecontrol>
 					<autoscroll>false</autoscroll>
 					<textcolor>ffbcbcbc</textcolor>

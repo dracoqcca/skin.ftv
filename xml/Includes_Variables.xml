@@ -221,9 +221,19 @@
 		<value condition="Player.Process(videohwdecoder)">$LOCALIZE[31119]</value>
 		<value>$LOCALIZE[31120]</value>
 	</variable>
+	<variable name="TextViewerHeader">
+		<value condition="String.IsEqual(Control.GetLabel(1),empty)">empty</value>
+		<value condition="!String.IsEqual(Control.GetLabel(1),empty)">[COLOR ffffffff]$INFO[Control.GetLabel(1),,[CR]][/COLOR]</value>
+	</variable>
+		<variable name="TextViewerFilename">
+		<value condition="String.IsEqual(Control.GetLabel(1),empty)">empty</value>
+		<value condition="!String.IsEqual(Control.GetLabel(1),empty) + String.IsEmpty(ListItem.FileName)">[COLOR ffffffff]$INFO[Player.Filename][/COLOR]</value>
+		<value condition="!String.IsEqual(Control.GetLabel(1),empty) + !String.IsEmpty(ListItem.FileName)">[COLOR ffffffff]$INFO[ListItem.FileName][/COLOR]</value>
+	</variable>
 	<variable name="TextViewerDescription">
-		<value condition="String.IsEqual(Control.GetLabel(1),empty)">[LIGHT]$INFO[Control.GetLabel(5)][/LIGHT]</value>
-		<value>[B][COLOR ffffffff]$INFO[Control.GetLabel(1),,[CR]][/B][/COLOR][LIGHT]$INFO[Control.GetLabel(5)][/LIGHT]</value>
+		<value>[LIGHT]$INFO[Control.GetLabel(5)][/LIGHT]</value>
+		<!-- <value condition="String.Equal(Control.GetLabel(1),empty)">[LIGHT]$INFO[Control.GetLabel(5)][/LIGHT]</value>
+		<value>[B][COLOR ffffffff]$INFO[Control.GetLabel(1),,[CR]][/B][/COLOR][LIGHT]$INFO[Control.GetLabel(5)][/LIGHT]</value> -->
 	</variable>
 	<variable name="AddonInstallPercentage">
 		<value condition="String.EndsWith(ListItem.Label2,100&#x25;)">views/percentage/100.png</value>
@@ -1078,6 +1088,10 @@
 		<value condition="Integer.IsGreater(Player.Duration(h),0)">$INFO[Player.Duration(h:mm:ss)]</value>
 		<value>$INFO[Player.Duration(mm:ss)]</value>
 	</variable>
+	<variable name="PlayerRemaining">
+		<value condition="Integer.IsGreater(Player.Duration(h),0)">$INFO[Player.TimeRemaining(h:mm:ss)]</value>
+		<value>$INFO[Player.TimeRemaining(mm:ss)]</value>
+	</variable>
 	<variable name="Fanart">
 		<value condition="[Container.Content(seasons) | Container.Content(episodes)] + !String.IsEmpty(Container.Art(tvshow.fanart))">$INFO[Container.Art(tvshow.fanart)]</value>
 		<value condition="!String.IsEmpty(Container.Art(artist.fanart))">$INFO[Container.Art(artist.fanart)]</value>
@@ -1145,7 +1159,7 @@
 		<value>$INFO[ListItem.Label]</value>
 	</variable>
 	<variable name="VideoInfoButton8">
-		<value condition="ListItem.IsResumable">$LOCALIZE[13404]</value>
+		<value condition="ListItem.IsResumable">$LOCALIZE[31109]</value>
 		<value condition="Integer.IsGreater(ListItem.PlayCount,0)">$LOCALIZE[31057]</value>
 		<value>$LOCALIZE[31109]</value>
 	</variable>

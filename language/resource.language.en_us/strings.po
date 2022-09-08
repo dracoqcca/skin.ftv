@@ -332,6 +332,14 @@ msgctxt "#31078"
 msgid "Sorry, nothing found."
 msgstr "Sorry, nothing found."
 
+msgctxt "#31080"
+msgid "Path"
+msgstr "Path" 
+
+msgctxt "#31081"
+msgid "File Name"
+msgstr "File Name" 
+
 msgctxt "#31085"
 msgid "Shutdown Menu"
 msgstr "Shutdown Menu"
