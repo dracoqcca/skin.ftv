@@ -6,7 +6,7 @@ Original fTV skin by Hitcher: http://forum.kodi.tv/showthread.php?tid=207475
 #Important:
 - Not compatible to Hitcher's official repo version, sorry
 - The skin has its own skin ID. So you can keep both, Hitchers fTV and my mod. Just take care of different skin folder names.
-- Current master is only tested on Leia version of Kodi
+- Current master is only tested on Matrix version of Kodi
 
 
 #Required addons:
